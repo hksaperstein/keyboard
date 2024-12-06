@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "059860e5-c837-4743-b363-165896827f43")
+	(paper "E")
+	(lib_symbols)
+	(sheet
+		(at 941.07 118.11)
+		(size 111.76 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12c85e21-aafd-4bb6-8b48-fce2ee0da547")
+		(property "Sheetname" "LEDs"
+			(at 941.07 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 941.07 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 940.816 41.656)
+		(size 112.014 67.818)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95f59cca-1a8f-4652-b892-a548eed558a8")
+		(property "Sheetname" "Switch Matrix"
+			(at 940.816 40.9444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_matrix.kicad_sch"
+			(at 940.816 110.0586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
