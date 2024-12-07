@@ -1,2 +1,4 @@
 Keyboard-backups/*
 *.lck
+*.bak
+fp-info-cache
