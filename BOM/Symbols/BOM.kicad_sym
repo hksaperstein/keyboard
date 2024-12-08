@@ -126,7 +126,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LED"
-			(at 5.842 -4.318 0)
+			(at 5.334 -3.81 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -137,7 +137,7 @@
 			)
 		)
 		(property "Value" "SK6812RGBW"
-			(at 2.286 -5.842 0)
+			(at 0.254 -5.842 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -147,7 +147,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 1.27 -7.62 0)
+			(at -1.27 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf"
-			(at 2.54 -9.525 0)
+			(at -2.54 -9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +195,7 @@
 		)
 		(symbol "SK6812RGBW-WS_0_0"
 			(text "RGB"
-				(at 2.286 -4.191 0)
+				(at -2.286 -4.191 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -204,99 +204,99 @@
 			)
 		)
 		(symbol "SK6812RGBW-WS_0_1"
-			(polyline
-				(pts
-					(xy 1.27 -3.556) (xy 1.778 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -2.54) (xy 1.778 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.699 -3.556) (xy 2.667 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 5.08 5.08)
-				(end -5.08 -5.08)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.699 -3.556) (xy -2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.556) (xy -1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.683 -1.016) (xy -3.683 -3.556) (xy -3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -2.54) (xy -1.27 -3.556) (xy -1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -1.524) (xy -1.27 -2.54) (xy -1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.699 -1.524) (xy -2.667 -1.524) (xy -3.683 -3.556) (xy -4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -320,7 +320,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 0 0)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -356,7 +356,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 0 180)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "DOUT"
 					(effects

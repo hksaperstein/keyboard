@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BOM")(type "KiCad")(uri "${BOM}/Symbols/BOM.kicad_sym")(options "")(descr ""))
+)
