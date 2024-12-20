@@ -1,8 +1,16 @@
 # _config.yml
+url: "https://hksaperstein.github.io"
+# baseurl: "/keyboard"
 
-title: "Leyboards and Keyboards"
+title: "A Keyboard From Scratch"
 description: "Tracking the progress of the development of a custom mechanical keyboard from scratch."
+name: "Harrison Saperstein"
 
-remote_theme: pages-themes/modernist@v0.2.0
+
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
+- jekyll-include-cache
 - jekyll-remote-theme # add this line to the plugins list if you already have one

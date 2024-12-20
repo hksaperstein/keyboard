@@ -4,3 +4,9 @@ Keyboard-backups/*
 fp-info-cache
 _autosave*
 keyautoplace.log
+
+# githube-pages 
+# Jekyll
+_site/
+.jekyll-cache/
+Gemfile.lock
