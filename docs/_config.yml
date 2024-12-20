@@ -1,6 +1,7 @@
 # _config.yml
 
-title: "Jekyll Actions Demo"
+title: "Leyboards and Keyboards"
+description: "Tracking the progress of the development of a custom mechanical keyboard from scratch."
 
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
