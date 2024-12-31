@@ -6,8 +6,8 @@
 	(paper "E")
 	(lib_symbols)
 	(sheet
-		(at 941.07 118.11)
-		(size 111.76 64.77)
+		(at 711.2 362.966)
+		(size 332.232 258.318)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,19 +18,21 @@
 		)
 		(uuid "12c85e21-aafd-4bb6-8b48-fce2ee0da547")
 		(property "Sheetname" "LEDs"
-			(at 941.07 117.3984 0)
+			(at 711.2 360.3494 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 941.07 183.4646 0)
+			(at 711.2 623.3926 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.08 5.08)
 				)
 				(justify left top)
 			)
@@ -44,8 +46,8 @@
 		)
 	)
 	(sheet
-		(at 940.816 41.656)
-		(size 112.014 67.818)
+		(at 711.454 41.656)
+		(size 341.376 287.782)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,19 +58,21 @@
 		)
 		(uuid "95f59cca-1a8f-4652-b892-a548eed558a8")
 		(property "Sheetname" "Switch Matrix"
-			(at 940.816 40.9444 0)
+			(at 711.454 39.0394 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "switch_matrix.kicad_sch"
-			(at 940.816 110.0586 0)
+			(at 711.454 331.5466 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.08 5.08)
 				)
 				(justify left top)
 			)

@@ -157,7 +157,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "868f4cc6-a18b-4885-8ef4-f06317bb3eee")
 	)
-	(model "${KIPRJMOD}/BOM/3D Models/C0603T104K8RAC7867.step"
+	(model "${BOM}/3D Models/C0603T104K8RAC7867.step"
 		(offset
 			(xyz 0 -0.425 0)
 		)

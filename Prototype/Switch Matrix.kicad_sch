@@ -1,0 +1,1258 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "333f4b29-3760-4729-a028-07532c49e2af")
+	(paper "A5")
+	(title_block
+		(title "Prototype 2x2 LED Array")
+		(date "2024-12-30")
+		(rev "0.1")
+	)
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 123.698 60.452)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7883003e-e2a6-4800-a0e4-759cdffc221e")
+	)
+	(junction
+		(at 106.934 48.006)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4b000a-8a74-4dc8-bb29-4959fda5aec3")
+	)
+	(junction
+		(at 123.698 48.006)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac57297-426b-40ca-8891-76e0b5bd50da")
+	)
+	(junction
+		(at 113.538 55.626)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a678cf-bf38-43a3-80e4-63851b1193ab")
+	)
+	(junction
+		(at 113.538 68.072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d9d83d-ae7a-44e6-9eac-b52ac38daa1c")
+	)
+	(junction
+		(at 96.774 68.072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c407a28a-fd6f-40c0-a11b-c3b2921b4db3")
+	)
+	(junction
+		(at 96.774 55.626)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c692def8-974d-4d93-becd-ac1ea36e736c")
+	)
+	(junction
+		(at 106.934 60.452)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f466230f-9378-4ea1-b817-318eaafddcb8")
+	)
+	(wire
+		(pts
+			(xy 96.774 55.626) (xy 113.538 55.626)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0918c4fb-5cfe-472e-b81c-2eba032ad47f")
+	)
+	(wire
+		(pts
+			(xy 96.774 68.072) (xy 113.538 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e4a48b-8ee6-4af7-a2f5-7a9a23c822da")
+	)
+	(wire
+		(pts
+			(xy 123.698 48.006) (xy 123.698 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c200ad-f336-4879-b23a-ce20cc21b484")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.626) (xy 96.774 55.626)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59565eaa-6874-4ab5-91c9-2af3a6c9beda")
+	)
+	(wire
+		(pts
+			(xy 90.17 68.072) (xy 96.774 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a35ebf-c80a-475c-a734-b5b14492bc5a")
+	)
+	(wire
+		(pts
+			(xy 123.698 60.452) (xy 123.698 72.898)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4c662b-eac3-4074-9626-3985edb35d74")
+	)
+	(wire
+		(pts
+			(xy 113.538 68.072) (xy 129.794 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e31119-8b7d-451f-a20a-1f0ec19096a4")
+	)
+	(wire
+		(pts
+			(xy 106.934 41.402) (xy 106.934 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3277087-ff91-4671-ba2d-604160020dc4")
+	)
+	(wire
+		(pts
+			(xy 106.934 60.452) (xy 106.934 72.898)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a88e2f-c21e-4c31-9d44-304c255ddc3a")
+	)
+	(wire
+		(pts
+			(xy 106.934 48.006) (xy 106.934 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7903b68-5572-4bef-a7a8-2faea153d2aa")
+	)
+	(wire
+		(pts
+			(xy 123.698 41.402) (xy 123.698 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6eb6a5-757e-4a25-9e95-98f16465ff64")
+	)
+	(wire
+		(pts
+			(xy 113.538 55.626) (xy 129.794 55.626)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3865b40-45ef-448b-8e29-65eb27006444")
+	)
+	(global_label "R1"
+		(shape input)
+		(at 90.17 55.626 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03d32793-b63d-47f3-8673-dab833a25549")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.7053 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 123.698 41.402 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "269e585a-b543-4809-9c54-b8c22339a91f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.698 35.9373 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 106.934 41.402 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9defaa49-7ef0-4095-9d8e-d5bbf0192b8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.934 35.9373 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 90.17 68.072 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf5b3a46-5422-4f16-a599-9f8a718e2c86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.7053 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 113.538 64.262 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f57b9a-e215-41e1-b8ef-94129858501b")
+		(property "Reference" "D87"
+			(at 116.078 62.9919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 116.078 65.5319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BOM:CR_48W-E3-08_VIS"
+			(at 113.538 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.538 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 113.538 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.538 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.538 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8231a784-4e5f-48f8-84ff-f430dad630f7")
+		)
+		(pin "2"
+			(uuid "70107403-191d-4bb6-bd7f-06d7d350f1a4")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 96.774 51.816 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280da71c-96d0-4f19-8978-29d96067142b")
+		(property "Reference" "D83"
+			(at 99.314 50.5459 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 99.314 53.0859 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BOM:CR_48W-E3-08_VIS"
+			(at 96.774 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.774 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 96.774 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.774 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.774 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a97c8ed-1ebe-473b-bfe3-83f6be11935b")
+		)
+		(pin "2"
+			(uuid "278c60fb-2b3f-47ce-b771-2ba0ce2d1ce5")
+		)
+		(instances
+			(project ""
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/288a5120-f2b5-44f6-9ad6-1ed19b53b1b7"
+					(reference "D83")
+					(unit 1)
+				)
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 101.854 60.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3223665a-05b5-4d71-aeae-8a3880a1cee5")
+		(property "Reference" "SW86"
+			(at 101.854 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 101.854 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
+			(at 101.854 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.854 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 101.854 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3c21067-c579-4d4e-8f4f-b4daf866d47c")
+		)
+		(pin "1"
+			(uuid "5ddc3bd9-bf84-4e78-a978-3c206b53c7dd")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW86")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.618 48.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff9cf12-865e-4ee4-b822-7a0c6ceaf944")
+		(property "Reference" "SW84"
+			(at 118.618 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.618 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
+			(at 118.618 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.618 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.618 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4df8a28-b05b-4cbf-b775-4a16bdc141a1")
+		)
+		(pin "1"
+			(uuid "3f19ff29-f812-4969-ac6b-b5ea76e94e23")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW84")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 101.854 48.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f666a50-0891-4c83-a1b4-13fe3e2c67ec")
+		(property "Reference" "SW83"
+			(at 101.854 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 101.854 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
+			(at 101.854 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.854 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 101.854 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11756ccd-e41d-4e68-b3fe-1d3a0e1d7dae")
+		)
+		(pin "1"
+			(uuid "12e2ed39-09d2-4020-951b-de9fb66d01e5")
+		)
+		(instances
+			(project ""
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/288a5120-f2b5-44f6-9ad6-1ed19b53b1b7"
+					(reference "SW83")
+					(unit 1)
+				)
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW82")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 96.774 64.262 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24584d0-7b41-4da4-b3b7-2d95cd7fa51c")
+		(property "Reference" "D86"
+			(at 99.314 62.9919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 99.314 65.5319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BOM:CR_48W-E3-08_VIS"
+			(at 96.774 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.774 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 96.774 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.774 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.774 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07875ded-4190-4ab0-b65b-e4e7cc929a23")
+		)
+		(pin "2"
+			(uuid "3e70e63f-b716-45de-8e50-5d814af9d884")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.618 60.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf009f8b-010f-4ace-89fb-27c91eab8dad")
+		(property "Reference" "SW87"
+			(at 118.618 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.618 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
+			(at 118.618 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.618 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.618 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5523d6eb-1f77-4458-929d-2daa42dcac17")
+		)
+		(pin "1"
+			(uuid "ab023c47-7924-4c4d-8186-97da7189bd54")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW87")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "SW87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 113.538 51.816 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f1ec29-7d1a-4699-a300-7458404b6c48")
+		(property "Reference" "D84"
+			(at 116.078 50.5459 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 116.078 53.0859 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BOM:CR_48W-E3-08_VIS"
+			(at 113.538 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.538 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 113.538 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.538 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.538 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da1d676-0ab5-4ca3-9536-68d191e52488")
+		)
+		(pin "2"
+			(uuid "e7a30f76-5fd0-4597-b63a-dcf10204f80d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/059860e5-c837-4743-b363-165896827f43/09c6ab9b-94c0-4bcb-b256-45fb4e9d4cfa/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+			(project "Prototype"
+				(path "/888aba5d-0c57-484f-adc1-3694461ae7e5/fcf834fc-ea3b-452e-b416-4e9d5a694868"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

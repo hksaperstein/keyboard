@@ -2330,7 +2330,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 293.37 107.95 0)
 			(effects
 				(font
@@ -2887,7 +2887,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 110.49 107.95 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -3249,7 +3249,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 156.21 168.91 0)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 133.35 138.43 0)
 			(effects
 				(font
@@ -3746,7 +3746,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 179.07 46.99 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 270.51 77.47 0)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -4336,7 +4336,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 247.65 199.39 0)
 			(effects
 				(font
@@ -4616,7 +4616,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 41.91 77.47 0)
 			(effects
 				(font
@@ -4835,7 +4835,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -5049,7 +5049,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 87.63 199.39 0)
 			(effects
 				(font
@@ -5333,7 +5333,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 247.65 138.43 0)
 			(effects
 				(font
@@ -5617,7 +5617,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 339.09 77.47 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 64.77 199.39 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 270.51 107.95 0)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 201.93 46.99 0)
 			(effects
 				(font
@@ -7776,7 +7776,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 293.37 77.47 0)
 			(effects
 				(font
@@ -7995,7 +7995,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 361.95 77.47 0)
 			(effects
 				(font
@@ -8625,7 +8625,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 201.93 107.95 0)
 			(effects
 				(font
@@ -9053,7 +9053,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -9133,7 +9133,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 110.49 46.99 0)
 			(effects
 				(font
@@ -10192,7 +10192,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 224.79 107.95 0)
 			(effects
 				(font
@@ -10764,7 +10764,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 270.51 138.43 0)
 			(effects
 				(font
@@ -10917,7 +10917,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 156.21 77.47 0)
 			(effects
 				(font
@@ -10997,7 +10997,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 133.35 168.91 0)
 			(effects
 				(font
@@ -11213,7 +11213,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 64.77 77.47 0)
 			(effects
 				(font
@@ -11293,7 +11293,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 270.51 199.39 0)
 			(effects
 				(font
@@ -11441,7 +11441,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 87.63 107.95 0)
 			(effects
 				(font
@@ -12142,7 +12142,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 316.23 168.91 0)
 			(effects
 				(font
@@ -12436,7 +12436,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 247.65 168.91 0)
 			(effects
 				(font
@@ -13071,7 +13071,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 361.95 168.91 0)
 			(effects
 				(font
@@ -13151,7 +13151,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 41.91 138.43 0)
 			(effects
 				(font
@@ -13297,7 +13297,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -13511,7 +13511,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 179.07 77.47 0)
 			(effects
 				(font
@@ -13857,7 +13857,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -13937,7 +13937,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 361.95 138.43 0)
 			(effects
 				(font
@@ -14367,7 +14367,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 224.79 168.91 0)
 			(effects
 				(font
@@ -14933,7 +14933,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 64.77 107.95 0)
 			(effects
 				(font
@@ -15490,7 +15490,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -15636,7 +15636,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 339.09 107.95 0)
 			(effects
 				(font
@@ -15716,7 +15716,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 87.63 46.99 0)
 			(effects
 				(font
@@ -15932,7 +15932,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 110.49 168.91 0)
 			(effects
 				(font
@@ -16282,7 +16282,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 64.77 168.91 0)
 			(effects
 				(font
@@ -17542,7 +17542,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 179.07 168.91 0)
 			(effects
 				(font
@@ -18026,7 +18026,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 87.63 168.91 0)
 			(effects
 				(font
@@ -18174,7 +18174,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 201.93 168.91 0)
 			(effects
 				(font
@@ -18604,7 +18604,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -19429,7 +19429,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 201.93 138.43 0)
 			(effects
 				(font
@@ -19575,7 +19575,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 361.95 107.95 0)
 			(effects
 				(font
@@ -19723,7 +19723,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 247.65 77.47 0)
 			(effects
 				(font
@@ -19803,7 +19803,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 270.51 168.91 0)
 			(effects
 				(font
@@ -21140,7 +21140,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 339.09 199.39 0)
 			(effects
 				(font
@@ -21354,7 +21354,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 201.93 77.47 0)
 			(effects
 				(font
@@ -21434,7 +21434,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 270.51 46.99 0)
 			(effects
 				(font
@@ -22550,7 +22550,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 293.37 138.43 0)
 			(effects
 				(font
@@ -22898,7 +22898,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 156.21 46.99 0)
 			(effects
 				(font
@@ -23187,7 +23187,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 339.09 168.91 0)
 			(effects
 				(font
@@ -23267,7 +23267,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 316.23 199.39 0)
 			(effects
 				(font
@@ -23347,7 +23347,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 224.79 46.99 0)
 			(effects
 				(font
@@ -23834,7 +23834,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 361.95 199.39 0)
 			(effects
 				(font
@@ -24050,7 +24050,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -24130,7 +24130,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 64.77 138.43 0)
 			(effects
 				(font
@@ -24485,7 +24485,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 224.79 77.47 0)
 			(effects
 				(font
@@ -25045,7 +25045,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -25743,7 +25743,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 156.21 199.39 0)
 			(effects
 				(font
@@ -25823,7 +25823,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 247.65 107.95 0)
 			(effects
 				(font
@@ -26256,7 +26256,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 316.23 46.99 0)
 			(effects
 				(font
@@ -26957,7 +26957,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 339.09 138.43 0)
 			(effects
 				(font
@@ -27177,7 +27177,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 41.91 199.39 0)
 			(effects
 				(font
@@ -27746,7 +27746,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 316.23 77.47 0)
 			(effects
 				(font
@@ -27962,7 +27962,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 41.91 107.95 0)
 			(effects
 				(font
@@ -28312,7 +28312,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 156.21 138.43 0)
 			(effects
 				(font
@@ -28596,7 +28596,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -29642,7 +29642,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 247.65 46.99 0)
 			(effects
 				(font
@@ -29788,7 +29788,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -29934,7 +29934,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 316.23 107.95 0)
 			(effects
 				(font
@@ -30155,7 +30155,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -30235,7 +30235,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 			(at 293.37 46.99 0)
 			(effects
 				(font
