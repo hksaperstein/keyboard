@@ -6,9 +6,9 @@
 	(descr "5.0mm x 5.0mm Addressable RGBW 3K LED NeoPixel")
 	(tags "LED RGBW NeoPixel PLCC-4 5050")
 	(property "Reference" "REF**"
-		(at 2.75 -3.55 0)
+		(at 2.75 -3.55 180)
 		(layer "F.SilkS")
-		(uuid "45e3fb6a-2e92-4643-9161-1c13a8e2a1e7")
+		(uuid "23d7303d-47e0-4e17-bc69-1b40bf038e7e")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
-		(at 0 4 0)
+	(property "Value" "SK6812RGBW"
+		(at 0 4 180)
 		(layer "F.Fab")
-		(uuid "2679145a-1e37-4463-8915-fcf51283ee5a")
+		(uuid "a13475b8-f7b3-4226-b628-9aa3306e22ee")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af6e2fe7-3d3c-46e7-b3b0-9d06345cff83")
+		(uuid "78261719-8787-4eb4-8f40-c21f2b89848a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0870dcdc-d178-4808-9b8c-b7977d227d5e")
+		(uuid "3069134c-5d4e-4762-8b07-44bb7fe48312")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,12 +53,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "RGB LED with integrated controller"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3b1e03de-da1b-46c7-9da8-79f818d1ed80")
+		(uuid "73b59cdf-7b11-4e4e-8638-766bb03763f9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -75,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c91a7d7a-a64c-4999-bcfb-4b13f642a3a6")
+		(uuid "eb70e7a9-9150-4104-950a-63e10576e84d")
 	)
 	(fp_line
 		(start -3.65 2.75)
@@ -85,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "385fb898-31ca-4ac4-a3aa-2280c1edc2b9")
+		(uuid "081709b4-a34f-470c-acd0-99e6b68d0b8f")
 	)
 	(fp_line
 		(start 3.65 2.75)
@@ -95,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9905e1c5-5d51-4cf9-84f0-60b78038b9f2")
+		(uuid "dd2d6ab7-b056-48b0-90ae-5dc6ce683aad")
 	)
 	(fp_line
 		(start -3.45 -2.75)
@@ -105,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0a5d758d-d23f-41c5-9784-e94c185415b9")
+		(uuid "6313951c-44c3-4bf6-9b1f-6aa06d32ffc5")
 	)
 	(fp_line
 		(start -3.45 2.75)
@@ -115,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6b3223e6-7f3f-4de0-9a81-2f93a2f94f7c")
+		(uuid "1d733247-eada-4d95-a9f8-786c87f01268")
 	)
 	(fp_line
 		(start 3.45 -2.75)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "97077d3f-8a3e-4ba6-b2ee-f57ffd365f6e")
+		(uuid "0e496762-1edf-4839-ba6b-7d6bcc9d51bb")
 	)
 	(fp_line
 		(start 3.45 2.75)
@@ -135,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "eb4e5a9f-2dc8-45fb-be9a-d2fcb3ea9f59")
+		(uuid "a7ea2f76-da4d-4224-bb1b-4aa38a9811fc")
 	)
 	(fp_line
 		(start -2.5 -2.5)
@@ -145,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7ce498f5-0014-4e67-9634-59bb617e9383")
+		(uuid "eba4d330-3ecb-4d21-b65e-6e546be8d381")
 	)
 	(fp_line
 		(start -2.5 2.5)
@@ -155,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "83a65986-cc1c-4767-a1b8-c1c7bfeec89e")
+		(uuid "df08447a-a033-4578-8a58-8e499655853f")
 	)
 	(fp_line
 		(start 2.5 -2.5)
@@ -165,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9e1199e2-3c1e-47e6-9163-78c1822a90eb")
+		(uuid "405eec09-39d1-4664-9a4c-1ebc89097880")
 	)
 	(fp_line
 		(start 2.5 1.5)
@@ -175,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f22bd8a5-67a5-4d34-af47-872c8e996657")
+		(uuid "4e3fd164-a773-4ad5-97fd-daa6a725f231")
 	)
 	(fp_line
 		(start 2.5 2.5)
@@ -185,7 +185,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f5a17e42-ab37-4a38-8094-f624ab6c6fe3")
+		(uuid "edf0f302-3c5d-4fef-8d0d-934c089c34e5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -196,12 +196,12 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "2b25c03d-f65a-4448-8d85-ff2ea8ad29ec")
+		(uuid "675f97b8-c396-4ba8-a71f-b9a4f2944106")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "384985e0-9d96-44d4-a517-d4b5551aea8c")
+		(uuid "ab4332b0-0f3b-439a-b9f0-5ccfbebaeae1")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -213,32 +213,32 @@
 		(at 2.45 1.6)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "98c0776d-12ee-4925-979d-e6f185bef9ce")
+		(uuid "fcc42577-b7a3-4502-b4df-462745756036")
 	)
 	(pad "2" smd rect
 		(at 2.45 -1.6)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "9f7c7f30-2e0e-4df5-af1d-1d3853e2776e")
+		(uuid "d3da3f6a-f5fb-4af5-a561-324055e21bcc")
 	)
 	(pad "3" smd rect
 		(at -2.45 -1.6)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "088f7fe1-40a9-4e05-8019-68bb65ef1a2c")
+		(uuid "cf80ffda-f29b-4aa9-a26f-1e1b24ef061e")
 	)
 	(pad "4" smd rect
 		(at -2.45 1.6)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "fb2ff826-1449-44e4-95ed-947ecaa01cb9")
+		(uuid "3b764847-016b-45cb-87db-73be671bcff4")
 	)
 	(model "${BOM}/3D Models/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 0.5)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 0 0)

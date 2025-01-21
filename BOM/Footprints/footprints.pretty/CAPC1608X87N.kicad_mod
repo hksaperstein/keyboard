@@ -4,21 +4,21 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.24 -1.07 0)
+		(at 0.2 -1.52 0)
 		(layer "F.SilkS")
-		(uuid "eadf044f-427a-4410-ac4d-7c6c390dc229")
+		(uuid "7c97e2fd-5f84-4bba-8587-e89e01beb9b4")
 		(effects
 			(font
-				(size 0.393701 0.393701)
-				(thickness 0.01)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "CAPC1608X87N"
+	(property "Value" "0.1uF"
 		(at 1.51 1.07 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "079650a9-72a2-4bcd-b496-f38066da23b8")
+		(uuid "22b9f1b2-7f90-475b-a9ab-9052df1e1b4d")
 		(effects
 			(font
 				(size 0.393701 0.393701)
@@ -26,11 +26,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "BOM:CAPC1608X87N"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d9cdbc12-9ee9-445b-a571-b9b4d247be38")
+		(uuid "0d28df3e-5674-41f4-bcb1-21c4848d6a0c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38,11 +38,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1027_X7R_COTS_SMD.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e8aee0ba-0267-4f6f-b701-582e70c018d5")
+		(uuid "5a80d5cb-2cc1-4c81-9846-88ba1848ca09")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "114b0f5a-7b35-42af-a997-332dfc535606")
+		(uuid "188c83dd-b16d-4572-9fe8-f77d71bd0667")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f145e46e-ed1b-448d-ac4e-693efe7e5316")
+		(uuid "840ef33a-7300-4974-80da-5b10921fb53e")
 	)
 	(fp_line
 		(start -1.485 0.735)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cf86049e-dd8d-421d-bf6e-341b1e4a3670")
+		(uuid "ed192e71-397a-4d05-b3ab-4b60ce8e1480")
 	)
 	(fp_line
 		(start -1.485 0.735)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7b66a9c5-d63f-4b00-ace4-b2d6b2d2f2be")
+		(uuid "34f865ea-5afd-487b-bc99-2d689f39d859")
 	)
 	(fp_line
 		(start 1.485 0.735)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f868c703-a8c1-4f03-8673-2308c576711c")
+		(uuid "2dbed975-0bde-492c-9634-26a4552f41e4")
 	)
 	(fp_line
 		(start -0.88 0.48)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "816f1c64-5a7d-4de2-aeb5-fb6762449b10")
+		(uuid "cd9a940c-8a3e-4874-9a26-5bd1b2d94abc")
 	)
 	(fp_line
 		(start 0.88 -0.48)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ef94d2db-81db-422b-9f8f-d54bf1d9f479")
+		(uuid "19c2a385-0c79-4dec-bfdd-9ccc0a621721")
 	)
 	(fp_line
 		(start 0.88 0.48)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8e3a61f3-d9c9-42cd-8241-ec5e4a6ce0be")
+		(uuid "2d60f73e-d93d-44b3-a2e2-e8632a5a3218")
 	)
 	(fp_line
 		(start 0.88 0.48)
@@ -141,21 +141,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ead38ebf-6f56-449b-bf75-9f110e0d7487")
+		(uuid "15d0b80b-aee7-45ef-8be9-b2662d6b0c5f")
 	)
 	(pad "1" smd rect
 		(at -0.775 0)
 		(size 0.92 0.97)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
-		(uuid "da2585ae-6c1d-48ce-a156-8332051755ca")
+		(uuid "4b960e75-9efb-4692-9817-c461fca6dbe9")
 	)
 	(pad "2" smd rect
 		(at 0.775 0)
 		(size 0.92 0.97)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
-		(uuid "868f4cc6-a18b-4885-8ef4-f06317bb3eee")
+		(uuid "3b8a435d-a8ce-4f1c-86fa-85055ac1e796")
 	)
 	(model "${BOM}/3D Models/C0603T104K8RAC7867.step"
 		(offset

@@ -1,0 +1,51 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024-12-31T01:30:02-0500
+
+BeginCmp
+TimeStamp = 6ec68f54-1e64-4dfa-9a50-b4d37cbfb2af
+Path = /dfcdc74a-43bf-4ff2-9cba-503367560156
+Reference = LED2;
+ValeurCmp = SK6812RGBW;
+IdModule  = BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 64605b40-b12c-40e3-aeed-038a0da4eb53
+Path = /af843eb1-052c-4c26-9d5a-7bae8d503f0c
+Reference = LED1;
+ValeurCmp = SK6812RGBW;
+IdModule  = BOM:LED_SK6812_PLCC4_5.0x5.0mm_P1.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5df29ffd-5ef3-430c-9c68-f9e84af63271
+Path = /b7dbf7aa-0579-4c3e-ba82-e8f656a633f2
+Reference = J2;
+ValeurCmp = Conn_01x01;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = f089d7ce-2bd4-4a42-990f-3000217c493a
+Path = /0bcfde3e-e8f2-41d9-942e-a29d0c0621f0
+Reference = J1;
+ValeurCmp = 68001-203HLF;
+IdModule  = 68001_203HLF:AMPHENOL_68001-203HLF;
+EndCmp
+
+BeginCmp
+TimeStamp = cf624ede-9185-4b40-9ec2-a079171a89b5
+Path = /6eb635d8-c3b3-4bdc-a4bc-cc01a7ccce06
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = BOM:CAPC1608X87N;
+EndCmp
+
+BeginCmp
+TimeStamp = e5687608-bc69-479f-bce4-860409a070d0
+Path = /0e4a5f1f-23a1-48eb-b8d3-9db602304e30
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = BOM:CAPC1608X87N;
+EndCmp
+
+EndListe

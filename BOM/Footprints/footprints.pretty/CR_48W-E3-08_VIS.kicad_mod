@@ -12,7 +12,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.175)
 			)
 		)
 	)
@@ -384,17 +384,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "8001820d-69e9-4730-bf37-2b9dea5d9f1a")
-	)
-	(fp_text user "*"
-		(at -2.667 0 0)
-		(layer "F.SilkS")
-		(uuid "88b54638-7558-447b-9b8d-47b3a850ef12")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "*"
 		(at -2.667 0 0)

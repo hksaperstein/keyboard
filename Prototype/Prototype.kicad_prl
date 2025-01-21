@@ -1,12 +1,38 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_netclasses": [
+      "Default"
+    ],
+    "hidden_nets": [
+      "",
+      "C1",
+      "C2",
+      "Net-(D1-A)",
+      "Net-(D2-A)",
+      "Net-(D3-A)",
+      "Net-(D4-A)",
+      "Net-(D5-A)",
+      "Net-(D6-A)",
+      "GND",
+      "+5V",
+      "R1",
+      "R2",
+      "Net-(D7-A)",
+      "Net-(D8-A)",
+      "RGBW_DATA_IN",
+      "RGBW_DATA_OUT",
+      "Net-(LED1-DOUT)",
+      "C3",
+      "C4",
+      "RGBW_DATA_JUMPER_OUT",
+      "Net-(LED3-DIN)",
+      "RGBW_DATA_JUMPER_IN"
+    ],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 0,
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
@@ -48,7 +74,6 @@
       20,
       21,
       22,
-      23,
       25,
       26,
       27,
@@ -59,11 +84,10 @@
       33,
       34,
       35,
-      36,
       39,
       40
     ],
-    "visible_layers": "fffffdf_ffffffff",
+    "visible_layers": "00115f0_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
