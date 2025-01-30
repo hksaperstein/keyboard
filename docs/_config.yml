@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The Custom Keyboard Chronicles: Adding RGBW"
+title                    : "The Custom Keyboard Chronicles"
 title_separator          : "-"
 subtitle                 : "A Harrison Saperstein Project"
 name                     : "Harrison Saperstein"
 description              : "Creating a custom RGBW keyboard from the ground up—designing the PCB, 3D modeling prototypes, and developing the software to make it all work. This personal challenge has been all about creating a solution for a keyboard with RGBW functionality. Solving design problems one at a time, realizing about a dozen more, keeping personal costs/waste as low as possible and making the ultimate keyboard."
 url                      : "https://hksaperstein.github.io"
-baseurl                  : "keyboard"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "/keyboard"
+repository               : "hksaperstein/keyboard"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -112,18 +112,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Harrison Saperstein"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "Making cool things"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:harrison.saperstein@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://hksaperstein.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -148,7 +147,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/hksaperstein"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
