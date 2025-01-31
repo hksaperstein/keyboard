@@ -6,5 +6,6 @@ layout: home
 author_profile: true
 ---
 
-# Hello
-sadfasdfwerq
+<h1 style="text-align: center;">Welcome To My Keyboard Archives</h1>
+
+This blog serves as an archive of my journey in designing and building a custom keyboard from scratch, documenting the entire process—from defining requirements to manufacturing a fully customized final product.
