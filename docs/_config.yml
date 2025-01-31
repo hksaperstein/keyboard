@@ -114,7 +114,7 @@ author:
   name             : "Harrison Saperstein"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "What is progress, if not solving one problem and creating a dozen more?"
-  location         : "Breaking things"
+  location         : "Making"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
